@@ -1,0 +1,35 @@
+# REQUIRED
+# service specifies which "service" you want to deploy to
+  # default is the main one
+  # you can spin up side services that run in parallel, great for testing purposes
+    # MightyPack uses side services for dev
+service: default
+
+# REQUIRED
+# runtime specifies which language you are running on
+runtime: nodejs
+
+# REQUIRED
+# env is either standard or flex, we always use flex
+# Read about them here: https://cloud.google.com/appengine/docs/the-appengine-environments
+env: flex
+
+# Optional
+# You can specify environment variables here too
+# We use these to specify that a project is running in "production" instead of local dev
+# But you can do a lot of other things with these
+env_variables:
+  NAME: 'James Terry'
+
+# Optional
+# App Engine scales automatically, but we don't need to do that for this demo
+# So let's stop it from doing that
+manual_scaling:
+  instances: 1
+
+# Optional
+# You can specify the resources for each instance, this config has been setup to be very small
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
