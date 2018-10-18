@@ -18,7 +18,7 @@ This specifies the configuration of App Engine, like which service to deploy to,
 Make sure you have configured your SDK with your login information (this should happen during the install process).
 
 ### Make a Project
-1. Login to [cloud.google.com](cloud.google.com)
+1. Login to [cloud.google.com](https://cloud.google.com/)
 1. In the top select the project dropdown menu
 1. Select new project
 1. Give it a name and keep it in the MightyHive org (make note of the project ID that is assigned to it)
