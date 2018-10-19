@@ -4,6 +4,7 @@ This is a small repo specifically made to show how to deploy to App Engine
 ## Pre Requirements
 You must have the [Google SDK](https://github.com/MightyHive/mightypack/compare/JapaneseCharacterSupport?expand=1) installed.
 
+Please be sure it is setup, you may need to run `gcloud init` to do so.
 
 ## Files
 
