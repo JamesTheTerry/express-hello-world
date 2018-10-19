@@ -4,11 +4,15 @@
   "description": "This is a small repo specifically made to show how to deploy to App Engine",
   "main": "index.js",
   "scripts": {
+    "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JamesTheTerry/express-hello-world.git"
+  },
+  "engines": {
+    "node": ">=9.8.0"
   },
   "author": "",
   "license": "ISC",
