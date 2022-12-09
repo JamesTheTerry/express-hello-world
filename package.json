@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/JamesTheTerry/express-hello-world#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
